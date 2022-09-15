@@ -6,6 +6,7 @@
 //
 
 import Foundation
+//import Alamofire
 
 public struct WeatherUtils {
     
@@ -13,6 +14,10 @@ public struct WeatherUtils {
     
     public func getTemperature() {
         print("the temperature is 19 grades")
+    }
+    
+    public func getPrecipitation() {
+        print("the precipitation is 19 grades")
     }
     
 }
