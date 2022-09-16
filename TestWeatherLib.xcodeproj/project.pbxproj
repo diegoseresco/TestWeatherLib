@@ -38,6 +38,7 @@
 		1E8E900428D3F342003383D2 /* WeatherTodaySheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FE528D3F341003383D2 /* WeatherTodaySheetViewController.swift */; };
 		1E8E900528D3F342003383D2 /* WeatherWeeklySheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FE628D3F341003383D2 /* WeatherWeeklySheetViewController.swift */; };
 		1E8E900628D3F342003383D2 /* WeatherTomorrowSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FE728D3F341003383D2 /* WeatherTomorrowSheetViewController.swift */; };
+		1E8E900828D41113003383D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8E900728D41113003383D2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		1E8E8FE528D3F341003383D2 /* WeatherTodaySheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTodaySheetViewController.swift; sourceTree = "<group>"; };
 		1E8E8FE628D3F341003383D2 /* WeatherWeeklySheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherWeeklySheetViewController.swift; sourceTree = "<group>"; };
 		1E8E8FE728D3F341003383D2 /* WeatherTomorrowSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTomorrowSheetViewController.swift; sourceTree = "<group>"; };
+		1E8E900728D41113003383D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		1E440A6728D2BBF5004D5032 /* TestWeatherLib */ = {
 			isa = PBXGroup;
 			children = (
+				1E8E900728D41113003383D2 /* Assets.xcassets */,
 				1E8E8FDA28D3F341003383D2 /* assets */,
 				1E8E8FCA28D3F341003383D2 /* data */,
 				1E8E8FD828D3F341003383D2 /* service */,
@@ -306,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8E900828D41113003383D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
