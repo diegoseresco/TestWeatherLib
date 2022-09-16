@@ -31,7 +31,6 @@
 		1E8E8FFB28D3F342003383D2 /* TemperatureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FD628D3F341003383D2 /* TemperatureItem.swift */; };
 		1E8E8FFC28D3F342003383D2 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FD728D3F341003383D2 /* Prediction.swift */; };
 		1E8E8FFD28D3F342003383D2 /* MeteorologyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FD928D3F341003383D2 /* MeteorologyApi.swift */; };
-		1E8E8FFE28D3F342003383D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8E8FDB28D3F341003383D2 /* Assets.xcassets */; };
 		1E8E900028D3F342003383D2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FDD28D3F341003383D2 /* Colors.swift */; };
 		1E8E900128D3F342003383D2 /* WindSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FE028D3F341003383D2 /* WindSheetViewController.swift */; };
 		1E8E900228D3F342003383D2 /* HumiditySheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8E8FE228D3F341003383D2 /* HumiditySheetViewController.swift */; };
@@ -67,7 +66,6 @@
 		1E8E8FD628D3F341003383D2 /* TemperatureItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureItem.swift; sourceTree = "<group>"; };
 		1E8E8FD728D3F341003383D2 /* Prediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
 		1E8E8FD928D3F341003383D2 /* MeteorologyApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorologyApi.swift; sourceTree = "<group>"; };
-		1E8E8FDB28D3F341003383D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E8E8FDD28D3F341003383D2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1E8E8FE028D3F341003383D2 /* WindSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindSheetViewController.swift; sourceTree = "<group>"; };
 		1E8E8FE228D3F341003383D2 /* HumiditySheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumiditySheetViewController.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		1E8E8FDA28D3F341003383D2 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				1E8E8FDB28D3F341003383D2 /* Assets.xcassets */,
 				1E8E8FDD28D3F341003383D2 /* Colors.swift */,
 			);
 			path = assets;
@@ -309,7 +306,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E8E8FFE28D3F342003383D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
