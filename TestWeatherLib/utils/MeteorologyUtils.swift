@@ -10,11 +10,11 @@ import UIKit
 
 public class MeteorologyUtils {
     
-    var currentViewController: UIViewController?
+    public var currentViewController: UIViewController?
     
     public init() {}
     
-    func openMeteorologyPanel(meteorologyType: MeteorologyType, municipalityId: String) {
+    public func openMeteorologyPanel(meteorologyType: MeteorologyType, municipalityId: String) {
         switch meteorologyType {
         case .WEATHER_TODAY:
             let weatherTodaySheet = WeatherTodaySheetViewController()

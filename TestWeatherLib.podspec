@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TestWeatherLib"
-  spec.version      = "1.5"
+  spec.version      = "1.6"
   spec.summary      = "A framework which contains functionalities about GoogleMaps"
   spec.description  = "A framework that has functionalities in KML, Markers, tracking and much more! using GoogleMaps"
 
